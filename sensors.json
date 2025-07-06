@@ -1,0 +1,47 @@
+[
+  {
+    "model": "DPT-Flow-500",
+    "type": "przetwornik różnicy ciśnień",
+    "power": "24V DC",
+    "signal": "0–10V",
+    "wires_required": 3,
+    "recommended_cable": "HELUKABEL JZ-600 HMH 3G0.75",
+    "color_code": {"24V":"brązowy","GND":"niebieski","signal":"czarny"}
+  },
+  {
+    "model": "DPT-Flow-2000-AZ",
+    "type": "przetwornik różnicy ciśnień",
+    "power": "24V DC",
+    "signal": "0–10V",
+    "wires_required": 3,
+    "recommended_cable": "HELUKABEL JZ-600 HMH 3G0.75",
+    "color_code": {"24V":"brązowy","GND":"niebieski","signal":"czarny"}
+  },
+  {
+    "model": "HTC-R",
+    "type": "czujnik temperatury i wilgotności",
+    "power": "24V AC/DC",
+    "signal": "Modbus RTU",
+    "wires_required": 4,
+    "recommended_cable": "HELUKABEL MULTISPEED 500-PUR-C 4x0.75",
+    "color_code":{"24V":"brązowy","GND":"niebieski","A+":"zielony","B-":"żółty"}
+  },
+  {
+    "model": "TEHR-N",
+    "type": "czujnik temperatury kanałowy",
+    "power": "Pt1000",
+    "signal": "Pt1000",
+    "wires_required": 2,
+    "recommended_cable": "HELUKABEL HELUTHERM 145 2x0.5",
+    "color_code":{"Pt1000_1":"biały","Pt1000_2":"biały"}
+  },
+  {
+    "model": "DPT-Flow-1000-AZ",
+    "type": "przetwornik różnicy ciśnień",
+    "power": "24V DC",
+    "signal": "0–10V",
+    "wires_required": 3,
+    "recommended_cable": "HELUKABEL JZ-600 HMH 3G0.75",
+    "color_code": {"24V":"brązowy","GND":"niebieski","signal":"czarny"}
+  }
+]
